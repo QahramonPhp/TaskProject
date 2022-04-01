@@ -22,6 +22,6 @@ class CurrencyController extends Controller
                 ]);
             }
         }
-        return veiw('test', ['currency' ->$result]);
+        return 'success';
     }
 }
